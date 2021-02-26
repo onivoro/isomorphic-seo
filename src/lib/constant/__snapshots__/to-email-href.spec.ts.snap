@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toEmailHref success case worx 1`] = `"mailto:e@ma.il?subject=RE%3ARE%3AREEE%3A%20subjetooo"`;

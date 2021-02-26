@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toSlug success case worx 1`] = `"test"`;
+
+exports[`toSlug success case worx 2`] = `"-"`;
+
+exports[`toSlug success case worx 3`] = `"test-phrase"`;
+
+exports[`toSlug success case worx 4`] = `"test~phrase"`;

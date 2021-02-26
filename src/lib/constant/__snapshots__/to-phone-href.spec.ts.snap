@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toPhoneHref success case worx 1`] = `"tel:5555555555"`;
