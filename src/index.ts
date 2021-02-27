@@ -12,6 +12,7 @@ export * from './lib/interface/open-graphable.interface';
 export * from './lib/interface/page.interface';
 export * from './lib/interface/paragraph.interface';
 export * from './lib/interface/section.interface';
+export * from './lib/interface/sitemap.interface';
 export * from './lib/interface/taggable.interface';
 export * from './lib/interface/user.interface';
 
