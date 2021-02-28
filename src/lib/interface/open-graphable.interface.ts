@@ -1,7 +1,9 @@
+import { OpenGraphObjectType } from "../enum/open-graph-object-type.enum";
+
 export interface IOpenGraphable {
-    url: string;
-    type: string;
-    title: string;
     description: string;
-    image: string;
+    image?: string;
+    title: string;
+    type: OpenGraphObjectType;
+    url?: string;
 }

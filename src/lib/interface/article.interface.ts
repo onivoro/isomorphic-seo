@@ -1,7 +1,5 @@
-import { IParagraph } from "./paragraph.interface";
+import { IOpenGraphable } from "./open-graphable.interface";
+import { IProsable } from "./prosable.interface";
 
-export interface IArticle {
-    title: string;
-    asides: IParagraph[];
-    paragraphs: IParagraph[];
+export interface IArticle extends IOpenGraphable, IProsable {
 }

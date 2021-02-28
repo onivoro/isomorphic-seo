@@ -1,5 +1,5 @@
-import { IParagraph } from "./paragraph.interface";
+import { ITextContentable } from "./text-contentable.interface";
 
-export interface IBullet extends IParagraph {
+export interface IBullet extends ITextContentable {
     icon: string;
 }
