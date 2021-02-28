@@ -1,3 +1,3 @@
 export interface IParagraph {
-    text: string;
+    textContent: string;
 }
