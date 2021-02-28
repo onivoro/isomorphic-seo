@@ -4,8 +4,12 @@ export * from './lib/constant/to-slug';
 
 export * from './lib/enum/open-graph-object-type.enum';
 
-export * from './lib/interface/blog.interface';
+
+export * from './lib/interface/article.interface';
+export * from './lib/interface/aside.interface';
+export * from './lib/interface/bullet-list.interface';
 export * from './lib/interface/bullet.interface';
+export * from './lib/interface/magazine.interface';
 export * from './lib/interface/message.interface';
 export * from './lib/interface/navigable.interface';
 export * from './lib/interface/open-graphable.interface';
