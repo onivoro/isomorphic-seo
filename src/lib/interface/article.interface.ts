@@ -1,4 +1,4 @@
-import { IIdentifiable } from "./identifiable.interface";
+import { IIdentifiable } from '@onivoro/isomorphic-crud-provider'
 import { IOpenGraphable } from "./open-graphable.interface";
 import { IProsable } from "./prosable.interface";
 

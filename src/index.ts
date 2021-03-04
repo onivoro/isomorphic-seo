@@ -10,7 +10,6 @@ export * from './lib/interface/bullet-list.interface';
 export * from './lib/interface/bullet.interface';
 export * from './lib/interface/groupable.interface';
 export * from './lib/interface/heading.interface';
-export * from './lib/interface/identifiable.interface';
 export * from './lib/interface/image.interface';
 export * from './lib/interface/magazine.interface';
 export * from './lib/interface/message.interface';
