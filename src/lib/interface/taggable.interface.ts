@@ -1,3 +1,3 @@
 export interface ITaggable {
-    tags: string[];
+    keywords: string[];
 }
