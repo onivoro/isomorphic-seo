@@ -1,5 +1,5 @@
 export interface IImage {
-    src: string;
+    url: string;
     alt: string;
     title: string;
 }
