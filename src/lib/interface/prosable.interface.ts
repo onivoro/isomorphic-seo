@@ -1,3 +1,5 @@
+import { IElemental } from "./elemental.interface";
+
 export interface IProsable {
-    elements: [{[tag: string]: any}];
+    elements: IElemental[];
 }

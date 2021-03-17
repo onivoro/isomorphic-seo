@@ -8,6 +8,7 @@ export * from './lib/interface/article.interface';
 export * from './lib/interface/author.interface';
 export * from './lib/interface/bullet-list.interface';
 export * from './lib/interface/bullet.interface';
+export * from './lib/interface/elemental.interface';
 export * from './lib/interface/image.interface';
 export * from './lib/interface/magazine.interface';
 export * from './lib/interface/message.interface';
