@@ -7,4 +7,6 @@ export interface IAuthor extends IIdentifiable {
     linkedInProfile?: string
     articles?: IArticle[];
     email?: string;
+    title?: string;
+    description?: string;
 }
