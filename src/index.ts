@@ -3,6 +3,7 @@ export * from './lib/constant/to-phone-href';
 export * from './lib/constant/to-slug';
 
 export * from './lib/enum/open-graph-object-type.enum';
+export * from './lib/factory/article.factory';
 
 export * from './lib/interface/article.interface';
 export * from './lib/interface/author.interface';
