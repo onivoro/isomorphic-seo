@@ -2,14 +2,12 @@ import { OpenGraphObjectType } from "../enum/open-graph-object-type.enum";
 import { IArticle } from "../interface/article.interface";
 
 
-export function articleFactory(props: Partial<IArticle>, host: string, idField: string): IArticle {
+export function articleFactory(props: Partial<IArticle>, host: string): IArticle {
     const {description, url, slug, label, title, keywords, icon} = props;
 
-    const id = props && props[idField];
     const route = url || (host + slug);
     
     const article: IArticle = {
-        idField,
         label: label || title,
         title,
         description,
@@ -18,8 +16,8 @@ export function articleFactory(props: Partial<IArticle>, host: string, idField: 
         icon: icon || 'article',
         image: host + (props?.image),
         keywords,
-        type: OpenGraphObjectType.article,    
+        type: OpenGraphObjectType.article,
     };
         
-    return {...article, [idField]: id}
+    return article
 }

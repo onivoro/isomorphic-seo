@@ -1,4 +1,2 @@
 import { IArticle } from "./article.interface";
-export interface IPage extends IArticle {
-    articles: IArticle[];
-}
+export interface IPage extends IArticle {}

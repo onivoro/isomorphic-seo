@@ -1,8 +1,7 @@
-import { IIdentifiable } from '@onivoro/isomorphic-crud-provider';
 import { IArticle } from './article.interface';
-import { IRegion } from './region.interface';
+import { IOpenGraphable } from './open-graphable.interface';
 
-export interface IAuthor extends IIdentifiable, IRegion {
+export interface IAuthor extends IOpenGraphable {
     firstName: string,
     lastName: string,
     linkedInProfile?: string

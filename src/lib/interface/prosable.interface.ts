@@ -1,6 +1,5 @@
 import { IElemental } from "./elemental.interface";
 
-export interface IProsable {
-    published?: boolean;
+export interface IProsable {    
     elements?: IElemental[];
 }

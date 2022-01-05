@@ -1,5 +1,3 @@
-export interface IImage {
-    url: string;
-    description: string;
-    title: string;
-}
+import { IOpenGraphable } from "./open-graphable.interface";
+
+export interface IImage extends IOpenGraphable {}
